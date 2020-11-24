@@ -4,3 +4,5 @@ To run use the application:
 mvnw spring-boot:run
 Navigate to
 http://localhost:8080/
+
+EN test rad
