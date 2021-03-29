@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: com.it.CupTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 0.022 s <<< FAILURE! - in com.it.CupTest
+com.it.CupTest.testObjectCreationAssertAll  Time elapsed: 0.007 s  <<< FAILURE!
+org.opentest4j.MultipleFailuresError: 
+Correctly builds object (2 failures)
+	java.lang.NullPointerException: Cannot invoke "com.it.Cup.getLiquidType()" because "this.cup" is null
+	java.lang.NullPointerException: Cannot invoke "com.it.Cup.getPercentFull()" because "this.cup" is null
+	at com.it.CupTest.testObjectCreationAssertAll(CupTest.java:28)
+
