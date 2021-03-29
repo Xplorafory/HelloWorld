@@ -13,7 +13,8 @@ class CalculatorTest {
         calc.setFirstValue(2.0);
         calc.setSecondValue(3.0);
 
-        return calc;
+        //return calc;
+        System.out.println("done");
     }
 
 
